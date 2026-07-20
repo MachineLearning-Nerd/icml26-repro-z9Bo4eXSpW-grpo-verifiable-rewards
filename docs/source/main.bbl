@@ -1,0 +1,248 @@
+\begin{thebibliography}{26}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aminian et~al.(2025)Aminian, Asadi, Shenfeld, and
+  Mroueh]{aminian2025theoreticalanalysisklregularizedrlhf}
+G.~Aminian, A.~R. Asadi, I.~Shenfeld, and Y.~Mroueh.
+\newblock Theoretical analysis of kl-regularized rlhf with multiple reference
+  models, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.01203}.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman]{Cobbe2021}
+K.~Cobbe, V.~Kosaraju, M.~Bavarian, M.~Chen, H.~Jun, L.~Kaiser, M.~Plappert,
+  J.~Tworek, J.~Hilton, R.~Nakano, C.~Hesse, and J.~Schulman.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv preprint arXiv:2110.14168}, 2021.
+
+\bibitem[Engstrom et~al.(2020)Engstrom, Ilyas, Santurkar, Tsipras, Janoos,
+  Rudolph, and Madry]{Engstrom2020Implementation}
+L.~Engstrom, A.~Ilyas, S.~Santurkar, D.~Tsipras, F.~Janoos, L.~Rudolph, and
+  A.~Madry.
+\newblock Implementation matters in deep rl: A case study on ppo and trpo.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+\newblock URL \url{https://openreview.net/forum?id=r1etN1rtPB}.
+
+\bibitem[Guan et~al.(2025)Guan, Joglekar, Wallace, Jain, Barak, Helyar, Dias,
+  Vallone, Ren, Wei, Chung, Toyer, Heidecke, Beutel, and
+  Glaese]{guan2025deliberativealignmentreasoningenables}
+M.~Y. Guan, M.~Joglekar, E.~Wallace, S.~Jain, B.~Barak, A.~Helyar, R.~Dias,
+  A.~Vallone, H.~Ren, J.~Wei, H.~W. Chung, S.~Toyer, J.~Heidecke, A.~Beutel,
+  and A.~Glaese.
+\newblock Deliberative alignment: Reasoning enables safer language models,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2412.16339}.
+
+\bibitem[Gunter et~al.(2024)Gunter, Wang, Wang, Pang, Narayanan, Zhang, Zhang,
+  Chen, Chiu, Qiu, Gopinath, Yap, Yin, Nan, Weers, Yin, Huang, Wang, Lu,
+  Peebles, Ye, Lee, Du, Chen, Keunebroek, Wiseman, Evans, Lei, Rathod, Kong,
+  Du, Li, Wang, Gao, Ahmed, Xu, Lu, Rashid, Jose, Doane, Bencomo, Vanderby,
+  Hansen, Jain, Anupama, Kamal, Wu, Brum, Maalouf, Erdenebileg, Dulhanty,
+  Moritz, Kang, Jimenez, Ladd, Shi, Bai, Chu, Hohman, Kotek, Coleman, Li,
+  Bigham, Cao, Lai, Cheung, Shan, Zhou, Li, Qin, Singh, Vega, Zou, Heckman,
+  Gardiner, Bowler, Cordell, Cao, Hay, Shahdadpuri, Godwin, Dighe, Rachapudi,
+  Tantawi, Frigg, Davarnia, Shah, Guha, Sirovica, Ma, Ma, Wang, Kim, Jayaram,
+  Shankar, Paidi, Kumar, Wang, Zheng, Cheng, Shrager, Ye, Tanaka, Guo, Meng,
+  Luo, Ouyang, Aygar, Wan, Walkingshaw, Narayanan, Lin, Farooq, Ramerth, Reed,
+  Bartels, Chaney, Riazati, Yang, Feldman, Hochstrasser, Seguin, Belousova,
+  Pelemans, Yang, Vahid, Cao, Najibi, Zuliani, Horton, Cho, Bhendawade, Dong,
+  Maj, Agrawal, Shan, Fu, Poston, Xu, Liu, Rao, Heeramun, Merth, Rayala, Cui,
+  Sridhar, Zhang, Zhang, Wu, Zhou, Liu, Zhao, Xia, Ren, and
+  Ren]{gunter2024appleintelligencefoundationlanguage}
+T.~Gunter, Z.~Wang, C.~Wang, R.~Pang, A.~Narayanan, A.~Zhang, B.~Zhang,
+  C.~Chen, C.-C. Chiu, D.~Qiu, D.~Gopinath, D.~A. Yap, D.~Yin, F.~Nan,
+  F.~Weers, G.~Yin, H.~Huang, J.~Wang, J.~Lu, J.~Peebles, K.~Ye, M.~Lee, N.~Du,
+  Q.~Chen, Q.~Keunebroek, S.~Wiseman, S.~Evans, T.~Lei, V.~Rathod, X.~Kong,
+  X.~Du, Y.~Li, Y.~Wang, Y.~Gao, Z.~Ahmed, Z.~Xu, Z.~Lu, A.~Rashid, A.~M. Jose,
+  A.~Doane, A.~Bencomo, A.~Vanderby, A.~Hansen, A.~Jain, A.~M. Anupama,
+  A.~Kamal, B.~Wu, C.~Brum, C.~Maalouf, C.~Erdenebileg, C.~Dulhanty, D.~Moritz,
+  D.~Kang, E.~Jimenez, E.~Ladd, F.~Shi, F.~Bai, F.~Chu, F.~Hohman, H.~Kotek,
+  H.~G. Coleman, J.~Li, J.~Bigham, J.~Cao, J.~Lai, J.~Cheung, J.~Shan, J.~Zhou,
+  J.~Li, J.~Qin, K.~Singh, K.~Vega, K.~Zou, L.~Heckman, L.~Gardiner, M.~Bowler,
+  M.~Cordell, M.~Cao, N.~Hay, N.~Shahdadpuri, O.~Godwin, P.~Dighe,
+  P.~Rachapudi, R.~Tantawi, R.~Frigg, S.~Davarnia, S.~Shah, S.~Guha,
+  S.~Sirovica, S.~Ma, S.~Ma, S.~Wang, S.~Kim, S.~Jayaram, V.~Shankar, V.~Paidi,
+  V.~Kumar, X.~Wang, X.~Zheng, W.~Cheng, Y.~Shrager, Y.~Ye, Y.~Tanaka, Y.~Guo,
+  Y.~Meng, Z.~T. Luo, Z.~Ouyang, A.~Aygar, A.~Wan, A.~Walkingshaw,
+  A.~Narayanan, A.~Lin, A.~Farooq, B.~Ramerth, C.~Reed, C.~Bartels, C.~Chaney,
+  D.~Riazati, E.~L. Yang, E.~Feldman, G.~Hochstrasser, G.~Seguin, I.~Belousova,
+  J.~Pelemans, K.~Yang, K.~A. Vahid, L.~Cao, M.~Najibi, M.~Zuliani, M.~Horton,
+  M.~Cho, N.~Bhendawade, P.~Dong, P.~Maj, P.~Agrawal, Q.~Shan, Q.~Fu,
+  R.~Poston, S.~Xu, S.~Liu, S.~Rao, T.~Heeramun, T.~Merth, U.~Rayala, V.~Cui,
+  V.~R. Sridhar, W.~Zhang, W.~Zhang, W.~Wu, X.~Zhou, X.~Liu, Y.~Zhao, Y.~Xia,
+  Z.~Ren, and Z.~Ren.
+\newblock Apple intelligence foundation language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.21075}.
+
+\bibitem[Guo et~al.(2025)Guo, Yang, Zhang, Song, Zhang, Xu, Zhu, Ma, Wang, Bi,
+  et~al.]{guo2025deepseekR1}
+D.~Guo, D.~Yang, H.~Zhang, J.~Song, R.~Zhang, R.~Xu, Q.~Zhu, S.~Ma, P.~Wang,
+  X.~Bi, et~al.
+\newblock Deepseek-r1: Incentivizing reasoning capability in llms via
+  reinforcement learning.
+\newblock \emph{arXiv preprint arXiv:2501.12948}, 2025.
+
+\bibitem[Huang et~al.(2024)Huang, Noukhovitch, Hosseini, Rasul, Wang, and
+  Tunstall]{huang2024the}
+S.~Huang, M.~Noukhovitch, A.~Hosseini, K.~Rasul, W.~Wang, and L.~Tunstall.
+\newblock The n+ implementation details of {RLHF} with {PPO}: A case study on
+  {TL};{DR} summarization.
+\newblock In \emph{First Conference on Language Modeling}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=kHO2ZTa8e3}.
+
+\bibitem[{Hugging Face}(2024)]{openr1}
+{Hugging Face}.
+\newblock {Open-R1}.
+\newblock \url{https://github.com/huggingface/open-r1}, 2024.
+
+\bibitem[Kwon et~al.(2023)Kwon, Li, Zhuang, Sheng, Zheng, Yu, Gonzalez, Zhang,
+  and Stoica]{kwon2023efficient}
+W.~Kwon, Z.~Li, S.~Zhuang, Y.~Sheng, L.~Zheng, C.~H. Yu, J.~E. Gonzalez,
+  H.~Zhang, and I.~Stoica.
+\newblock Efficient memory management for large language model serving with
+  pagedattention.
+\newblock In \emph{Proceedings of the ACM SIGOPS 29th Symposium on Operating
+  Systems Principles}, 2023.
+
+\bibitem[Lambert et~al.(2024)Lambert, Morrison, Pyatkin, Huang, Ivison,
+  Brahman, Miranda, Liu, Dziri, Lyu, et~al.]{lambert2024t}
+N.~Lambert, J.~Morrison, V.~Pyatkin, S.~Huang, H.~Ivison, F.~Brahman, L.~J.~V.
+  Miranda, A.~Liu, N.~Dziri, S.~Lyu, et~al.
+\newblock T{\"u}lu 3: Pushing frontiers in open language model post-training.
+\newblock \emph{arXiv preprint arXiv:2411.15124}, 2024.
+
+\bibitem[Liu et~al.(2024)Liu, Feng, Xue, Wang, Wu, Lu, Zhao, Deng, Zhang, Ruan,
+  et~al.]{liu2024deepseekv3}
+A.~Liu, B.~Feng, B.~Xue, B.~Wang, B.~Wu, C.~Lu, C.~Zhao, C.~Deng, C.~Zhang,
+  C.~Ruan, et~al.
+\newblock Deepseek-v3 technical report.
+\newblock \emph{arXiv preprint arXiv:2412.19437}, 2024.
+
+\bibitem[Liu et~al.(2025)Liu, Chen, Li, Qi, Pang, Du, Lee, and
+  Lin]{liu2025understanding}
+Z.~Liu, C.~Chen, W.~Li, P.~Qi, T.~Pang, C.~Du, W.~S. Lee, and M.~Lin.
+\newblock Understanding r1-zero-like training: A critical perspective.
+\newblock \emph{arXiv preprint arXiv:2503.20783}, 2025.
+
+\bibitem[Luo et~al.(2025)Luo, Tan, Wong, Shi, Tang, Roongta, Cai, Luo, Zhang,
+  Li, Popa, and Stoica]{deepscaler2025}
+M.~Luo, S.~Tan, J.~Wong, X.~Shi, W.~Y. Tang, M.~Roongta, C.~Cai, J.~Luo,
+  T.~Zhang, L.~E. Li, R.~A. Popa, and I.~Stoica.
+\newblock Deepscaler: Surpassing o1-preview with a 1.5b model by scaling rl.
+\newblock \url{https://tinyurl.com/5e9rs33z}, 2025.
+\newblock Notion Blog.
+
+\bibitem[Mroueh(2024)]{mroueh2024informationtheoreticguaranteespolicy}
+Y.~Mroueh.
+\newblock Information theoretic guarantees for policy alignment in large
+  language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.05883}.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, Desmaison, K{\"o}pf, Yang, DeVito, Raison,
+  Tejani, Chilamkurthy, Steiner, Fang, Bai, and Chintala]{Paszke2019}
+A.~Paszke, S.~Gross, F.~Massa, A.~Lerer, J.~Bradbury, G.~Chanan, T.~Killeen,
+  Z.~Lin, N.~Gimelshein, L.~Antiga, A.~Desmaison, A.~K{\"o}pf, E.~Yang,
+  Z.~DeVito, M.~Raison, A.~Tejani, S.~Chilamkurthy, B.~Steiner, L.~Fang,
+  J.~Bai, and S.~Chintala.
+\newblock {{PyTorch}}: {{An Imperative Style}}, {{High-Performance Deep
+  Learning Library}}, Dec. 2019.
+
+\bibitem[Schulman et~al.(2015)Schulman, Levine, Abbeel, Jordan, and
+  Moritz]{pmlr-v37-schulman15}
+J.~Schulman, S.~Levine, P.~Abbeel, M.~Jordan, and P.~Moritz.
+\newblock Trust region policy optimization.
+\newblock In F.~Bach and D.~Blei, editors, \emph{Proceedings of the 32nd
+  International Conference on Machine Learning}, volume~37 of \emph{Proceedings
+  of Machine Learning Research}, pages 1889--1897, Lille, France, 07--09 Jul
+  2015. PMLR.
+\newblock URL \url{https://proceedings.mlr.press/v37/schulman15.html}.
+
+\bibitem[Schulman et~al.(2017)Schulman, Wolski, Dhariwal, Radford, and
+  Klimov]{schulman2017proximal}
+J.~Schulman, F.~Wolski, P.~Dhariwal, A.~Radford, and O.~Klimov.
+\newblock Proximal policy optimization algorithms.
+\newblock \emph{arXiv preprint arXiv:1707.06347}, 2017.
+
+\bibitem[Shao et~al.(2024)Shao, Wang, Zhu, Xu, Song, Bi, Zhang, Zhang, Li, Wu,
+  et~al.]{shao2024deepseekmath}
+Z.~Shao, P.~Wang, Q.~Zhu, R.~Xu, J.~Song, X.~Bi, H.~Zhang, M.~Zhang, Y.~Li,
+  Y.~Wu, et~al.
+\newblock Deepseekmath: Pushing the limits of mathematical reasoning in open
+  language models.
+\newblock \emph{arXiv preprint arXiv:2402.03300}, 2024.
+
+\bibitem[Sutton and Barto(1998)]{sutton1998reinforcement}
+R.~S. Sutton and A.~G. Barto.
+\newblock \emph{Reinforcement Learning: An Introduction}.
+\newblock MIT Press, 1998.
+\newblock URL \url{http://www.cs.ualberta.ca/~sutton/book/the-book.html}.
+
+\bibitem[Tomar et~al.(2021)Tomar, Shani, Efroni, and
+  Ghavamzadeh]{tomar2021mirrordescentpolicyoptimization}
+M.~Tomar, L.~Shani, Y.~Efroni, and M.~Ghavamzadeh.
+\newblock Mirror descent policy optimization, 2021.
+\newblock URL \url{https://arxiv.org/abs/2005.09814}.
+
+\bibitem[Vojnovic and Yun(2025)]{vojnovic2025alignmentobjectivegrpo}
+M.~Vojnovic and S.-Y. Yun.
+\newblock What is the alignment objective of grpo?, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.18548}.
+
+\bibitem[von Werra et~al.(2020{\natexlab{a}})von Werra, Belkada, Tunstall,
+  Beeching, Thrush, Lambert, Huang, Rasul, and Gallouédec]{Vonwerra2022}
+L.~von Werra, Y.~Belkada, L.~Tunstall, E.~Beeching, T.~Thrush, N.~Lambert,
+  S.~Huang, K.~Rasul, and Q.~Gallouédec.
+\newblock Trl: Transformer reinforcement learning.
+\newblock \url{https://github.com/huggingface/trl}, 2020{\natexlab{a}}.
+
+\bibitem[von Werra et~al.(2020{\natexlab{b}})von Werra, Belkada, Tunstall,
+  Beeching, Thrush, Lambert, Huang, Rasul, and Gallouédec]{vonwerra2022trl}
+L.~von Werra, Y.~Belkada, L.~Tunstall, E.~Beeching, T.~Thrush, N.~Lambert,
+  S.~Huang, K.~Rasul, and Q.~Gallouédec.
+\newblock Trl: Transformer reinforcement learning.
+\newblock \url{https://github.com/huggingface/trl}, 2020{\natexlab{b}}.
+
+\bibitem[Wolf et~al.(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac,
+  Rault, Louf, Funtowicz, Davison, Shleifer, von Platen, Ma, Jernite, Plu, Xu,
+  Scao, Gugger, Drame, Lhoest, and Rush]{Wolf2020}
+T.~Wolf, L.~Debut, V.~Sanh, J.~Chaumond, C.~Delangue, A.~Moi, P.~Cistac,
+  T.~Rault, R.~Louf, M.~Funtowicz, J.~Davison, S.~Shleifer, P.~von Platen,
+  C.~Ma, Y.~Jernite, J.~Plu, C.~Xu, T.~L. Scao, S.~Gugger, M.~Drame, Q.~Lhoest,
+  and A.~M. Rush.
+\newblock {{HuggingFace}}'s {{Transformers}}: {{State-of-the-art Natural
+  Language Processing}}, July 2020.
+
+\bibitem[Yang et~al.(2024)Yang, Yang, Hui, Zheng, Yu, Zhou, Li, Li, Liu, Huang,
+  Dong, Wei, Lin, Tang, Wang, Yang, Tu, Zhang, Ma, Yang, Xu, Zhou, Bai, He,
+  Lin, Dang, Lu, Chen, Yang, Li, Xue, Ni, Zhang, Wang, Peng, Men, Gao, Lin,
+  Wang, Bai, Tan, Zhu, Li, Liu, Ge, Deng, Zhou, Ren, Zhang, Wei, Ren, Liu, Fan,
+  Yao, Zhang, Wan, Chu, Liu, Cui, Zhang, Guo, and Fan]{Yang2024d}
+A.~Yang, B.~Yang, B.~Hui, B.~Zheng, B.~Yu, C.~Zhou, C.~Li, C.~Li, D.~Liu,
+  F.~Huang, G.~Dong, H.~Wei, H.~Lin, J.~Tang, J.~Wang, J.~Yang, J.~Tu,
+  J.~Zhang, J.~Ma, J.~Yang, J.~Xu, J.~Zhou, J.~Bai, J.~He, J.~Lin, K.~Dang,
+  K.~Lu, K.~Chen, K.~Yang, M.~Li, M.~Xue, N.~Ni, P.~Zhang, P.~Wang, R.~Peng,
+  R.~Men, R.~Gao, R.~Lin, S.~Wang, S.~Bai, S.~Tan, T.~Zhu, T.~Li, T.~Liu,
+  W.~Ge, X.~Deng, X.~Zhou, X.~Ren, X.~Zhang, X.~Wei, X.~Ren, X.~Liu, Y.~Fan,
+  Y.~Yao, Y.~Zhang, Y.~Wan, Y.~Chu, Y.~Liu, Z.~Cui, Z.~Zhang, Z.~Guo, and
+  Z.~Fan.
+\newblock Qwen2 {{Technical Report}}, Sept. 2024.
+
+\bibitem[Yu et~al.(2025)Yu, Zhang, Zhu, Yuan, Zuo, Yue, Fan, Liu, Liu, Liu,
+  Lin, Lin, Ma, Sheng, Tong, Zhang, Zhang, Zhang, Zhu, Zhu, Chen, Chen, Wang,
+  Yu, Dai, Song, Wei, Zhou, Liu, Ma, Zhang, Yan, Qiao, Wu, and
+  Wang]{yu2025dapoopensourcellmreinforcement}
+Q.~Yu, Z.~Zhang, R.~Zhu, Y.~Yuan, X.~Zuo, Y.~Yue, T.~Fan, G.~Liu, L.~Liu,
+  X.~Liu, H.~Lin, Z.~Lin, B.~Ma, G.~Sheng, Y.~Tong, C.~Zhang, M.~Zhang,
+  W.~Zhang, H.~Zhu, J.~Zhu, J.~Chen, J.~Chen, C.~Wang, H.~Yu, W.~Dai, Y.~Song,
+  X.~Wei, H.~Zhou, J.~Liu, W.-Y. Ma, Y.-Q. Zhang, L.~Yan, M.~Qiao, Y.~Wu, and
+  M.~Wang.
+\newblock Dapo: An open-source llm reinforcement learning system at scale,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2503.14476}.
+
+\end{thebibliography}

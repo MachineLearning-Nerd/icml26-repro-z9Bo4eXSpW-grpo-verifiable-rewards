@@ -1,0 +1,13 @@
+{
+  "endpoint": "https://huggingface.co/spaces/ICML-2026-agent-repro/challenge/resolve/main/claims.json",
+  "fetched_on": "2026-07-20",
+  "openreview_id": "z9Bo4eXSpW",
+  "claims": [
+    "Mean+variance calibration of rewards in GRPO induces contrastive loss with synthetic data from previous policy.",
+    "Optimal policy in GRPO admits explicit form in terms of binary reward and first/second order statistics of previous policy.",
+    "GRPO amplifies policy's probability of success beyond reference performance through principled regularization."
+  ],
+  "claim_count": 3,
+  "points_possible": 6,
+  "status_at_fetch": "unverified"
+}

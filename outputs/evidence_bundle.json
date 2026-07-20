@@ -1,0 +1,28 @@
+{
+  "artifacts": {
+    "README.md": "4f2d34525291bb4759ed82980eda2297811a6622e8118dda6c5688720d60e095",
+    "STATUS.md": "0707d0d1da9452dbda866822823c8f4c84f926589b4e5ab20f6e6009b99d3755",
+    "docs/arxiv_source.tar": "6d2325bc504b43c41b3ab27fe9515554beb8ed598eb5848185b42cf10ad0f94a",
+    "docs/live_claims_2026-07-20.json": "e2d1613b1ce9c2c312e48a7bd99de30a225d976aca86c0b95678c5d5b53992b0",
+    "docs/primary.pdf": "d830077320a3bdf53532b90f2dceeaf0f2c17912250cd2d00ea8aeb2adc6a0c6",
+    "docs/source/main.tex": "3f30a19ebd3e169cec4f127abbfdfcc3e0d5cfab11f1730bc0fd07cd4a3d23c9",
+    "docs/source_pins.json": "fea7c8cab61f6bdd61fad2b179f56e26103888bc70beea94b7d68cfcb8884c4c",
+    "outputs/claim_verification.json": "a43323d5ae6c12b862e8afc04041f7a871e3925fcc5e3292b3504663d5f83c6f",
+    "outputs/full_audit.json": "9e9be59f9893c3696c82d843b5166a92f495b07b28526fa13032d1a4798017b7",
+    "outputs/test_results.json": "40f2fc49d9c5cd049b8339473f783d016111ea8126c90af3744d1454871317f5",
+    "repro/src/full_audit.py": "fa47ff602b1800c3e58f4ac02651438e89996e6b7b4f688601b538d1f00770f5",
+    "repro/src/run_tests.py": "65817cbedb0309b149b1fcd2e49d22722dc50444e398991317682774943bcc21",
+    "repro/src/verify_claims.py": "1a4af68d11fa2b75d97fd2899186f67b32f93e8b21493de58ce58e3e5caa8728",
+    "repro/tests/test_audit.py": "7f4b62ba9921e63f99a4ce749f03823729757113e33280277509ca956879e4d9"
+  },
+  "claim_outcomes": {
+    "claim_1": "verified_with_source_notation_corrections_disclosed",
+    "claim_2": "verified_for_exact_population_no_clip_objective",
+    "claim_3": "verified_with_support_and_convergence_scope_corrections"
+  },
+  "earned_points": 6,
+  "gate": "FULL_GATE_READY",
+  "live_claim_count": 3,
+  "paper": "z9Bo4eXSpW",
+  "supplemental_source_check": "Theorem 5 cumulative-TV bound verified in its stated conditional scope; not a current jury claim."
+}

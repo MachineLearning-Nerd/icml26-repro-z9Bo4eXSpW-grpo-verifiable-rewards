@@ -1,0 +1,6 @@
+{
+  "tests_passed": true,
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_claim_1_weighted_contrastive_identity (test_audit.AuditTests.test_claim_1_weighted_contrastive_identity) ... ok\ntest_claim_2_closed_form_policy (test_audit.AuditTests.test_claim_2_closed_form_policy) ... ok\ntest_claim_3_recurrence_and_amplification_scope (test_audit.AuditTests.test_claim_3_recurrence_and_amplification_scope) ... ok\ntest_supplemental_theorem_5_parametric_cumulative_tv_bound (test_audit.AuditTests.test_supplemental_theorem_5_parametric_cumulative_tv_bound) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 5.974s\n\nOK\n"
+}

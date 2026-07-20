@@ -1,0 +1,188 @@
+{
+  "candidate": {
+    "arxiv": "2503.06639v4",
+    "official_jury_claim_count": 3,
+    "openreview_id": "z9Bo4eXSpW",
+    "points_possible": 6,
+    "title": "Reinforcement Learning with Verifiable Rewards: GRPO's Effective Loss, Dynamics, and Success Amplification"
+  },
+  "candidate_decision": {
+    "reason": "All three current scoreable claims admit deterministic full-scale finite-distribution tests. The audit supplies source-level notation corrections, independent optimizer checks, support-boundary controls, and a concrete non-convergent two-cycle. Theorem 5 is retained as supplemental evidence rather than represented as a current jury claim.",
+    "recommended_for_future_claim": true,
+    "required_disclosures": [
+      "Theory is for population no-clipping objectives optimized exactly over policies.",
+      "The intermediate conditional-expectation display omits event masses, although the later unconditional-indicator equation is exact.",
+      "The source's clipping identity swaps its ratio and advantage symbols.",
+      "p_ref=0 is absorbing and p_ref=1 cannot be strictly amplified.",
+      "Reference-only recurrence need not converge globally; stable two-cycles occur.",
+      "With positive smoothing and interior p_ref, p=1 is not an exact fixed point.",
+      "Theorem 5 is conditional on equal initial policies, the cumulative-TV assumption, and convergence of the non-parametric sequence; its factor-two bound is valid but loose for a binary event under standard TV."
+    ]
+  },
+  "claims": {
+    "claim_1_contrastive_loss": {
+      "failure_weight_strictly_increasing": true,
+      "finite_distribution_cells": 1200,
+      "literal_conditional_notation_rejections": 1200,
+      "maximum_bernoulli_mean_error": 5.551115123125783e-16,
+      "maximum_bernoulli_variance_error": 2.42861286636753e-16,
+      "maximum_binary_calibration_error": 0.0,
+      "maximum_clipped_contrastive_identity_error": 4.440892098500626e-16,
+      "omitted_smoothing_rejections": 1200,
+      "pass": true,
+      "success_weight_strictly_decreasing": true,
+      "swapped_clipping_identity_rejections": 1200,
+      "verdict": "verified_with_two_source_notation_corrections"
+    },
+    "claim_2_closed_form_policy": {
+      "independent_slsqp_cells": 108,
+      "maximum_kl_optimality_certificate_error": 1.7763568394002505e-15,
+      "maximum_optimizer_l1_error": 4.260977133976861e-06,
+      "maximum_optimizer_objective_gap": 7.780902866461048e-10,
+      "optimizer_failures": 0,
+      "pass": true,
+      "variants": [
+        "reference",
+        "mirror",
+        "two_kl"
+      ],
+      "verdict": "verified_for_exact_population_no_clip_objectives",
+      "wrong_anchor_rejections": 108,
+      "wrong_old_policy_statistic_rejections": 106
+    },
+    "claim_3_success_amplification": {
+      "amplification_failures": 0,
+      "dense_parameter_cells": 455,
+      "dense_state_points_per_cell": 2001,
+      "finite_policy_recurrence_cells": 720,
+      "fixed_root_count": 402,
+      "maximum_fixed_root_residual": 2.9531932455029164e-14,
+      "maximum_policy_to_scalar_recurrence_error": 3.3306690738754696e-16,
+      "minimum_positive_log_odds_gain": 0.02981423969999719,
+      "minimum_resolved_fixed_root_margin_over_reference": 3.273663759995049e-05,
+      "near_one_root_cells": 110,
+      "numerically_converged_cells": 449,
+      "pass": true,
+      "period_two_cells": 6,
+      "period_two_examples": [
+        {
+          "beta": 3.0,
+          "high": 0.6330115797424634,
+          "low": 0.0019948634992735643,
+          "reference_probability": 0.001,
+          "smoothing": 1e-05,
+          "two_step_residual": 0.0
+        },
+        {
+          "beta": 5.0,
+          "high": 0.058715761175719215,
+          "low": 0.0023380418435693362,
+          "reference_probability": 0.001,
+          "smoothing": 1e-05,
+          "two_step_residual": 0.0
+        },
+        {
+          "beta": 3.0,
+          "high": 0.05502995235578054,
+          "low": 0.012811232775161156,
+          "reference_probability": 0.003,
+          "smoothing": 1e-05,
+          "two_step_residual": 0.0
+        },
+        {
+          "beta": 3.0,
+          "high": 0.29011010989510033,
+          "low": 0.0020785279907279113,
+          "reference_probability": 0.001,
+          "smoothing": 0.001,
+          "two_step_residual": 0.0
+        },
+        {
+          "beta": 1.0,
+          "high": 0.6495133182008487,
+          "low": 0.007725850713279423,
+          "reference_probability": 0.001,
+          "smoothing": 0.01,
+          "two_step_residual": 6.661338147750939e-16
+        },
+        {
+          "beta": 1.0,
+          "high": 0.4792059946664033,
+          "low": 0.02097256835441431,
+          "reference_probability": 0.003,
+          "smoothing": 0.01,
+          "two_step_residual": 0.0
+        }
+      ],
+      "positive_smoothing_endpoint_control": {
+        "cells_where_one_is_not_an_exact_fixed_point": 455,
+        "largest_log10_one_minus_h_of_one": -0.0004492319853099135,
+        "smallest_log10_one_minus_h_of_one": -1376.3593035452795
+      },
+      "resolved_root_cells": 345,
+      "scope": "Amplification is exact for the paper's population, no-clipping, exact-optimizer map with 0<p_ref<1. Zero support is absorbing; convergence is only local and some valid parameter cells approach a two-cycle, while every iterate remains strictly above the reference success probability.",
+      "support_boundary_controls": {
+        "unit_reference": 1.0,
+        "zero_reference": 0.0
+      },
+      "unresolved_cells": 0,
+      "verdict": "verified_with_support_and_convergence_scope_corrections"
+    }
+  },
+  "methodology": {
+    "network_access": false,
+    "rng_seed": 20260719,
+    "uses_competitor_code_or_results": false
+  },
+  "pass": true,
+  "source": {
+    "arxiv_source_executable_files": [],
+    "github_library_urls": [
+      "https://github.com/goodfeli/dlbook_notation.",
+      "https://github.com/huggingface/transformers",
+      "https://github.com/huggingface/trl"
+    ],
+    "github_urls": [
+      "https://github.com/goodfeli/dlbook_notation.",
+      "https://github.com/huggingface/transformers",
+      "https://github.com/huggingface/trl"
+    ],
+    "pass": true,
+    "primary_tex_sha256": "3f30a19ebd3e169cec4f127abbfdfcc3e0d5cfab11f1730bc0fd07cd4a3d23c9",
+    "source_anchors": [
+      "amplification_theorem",
+      "binary_whitened_reward",
+      "contrastive_section",
+      "mirror_recurrence",
+      "parametric_tv_assumption",
+      "parametric_two_delta_bound",
+      "population_policy_recursion",
+      "success_fixed_point"
+    ],
+    "source_file_count": 9,
+    "source_statements_requiring_independent_test": {
+      "abstract_states_convergence_without_local_stability_scope": true,
+      "claims_code_in_supplement_but_arxiv_source_has_no_executable": true,
+      "clipping_identity_swaps_ratio_and_advantage_symbols": true,
+      "conditional_expectation_notation_omits_event_mass": true,
+      "proof_has_p_n_minus_1_of_literal_one_typo": true,
+      "states_one_is_almost_always_fixed_despite_positive_smoothing": true
+    }
+  },
+  "supplemental_source_checks": {
+    "theorem_5_parametric_approximation_bound": {
+      "assumption_failures": 0,
+      "finite_policy_cumulative_tv_cells": 1600,
+      "maximum_success_event_gap": 0.20965465531898234,
+      "maximum_success_gap_minus_exact_tv": 2.220446049250313e-16,
+      "maximum_success_gap_minus_two_delta_star": -0.026473893205226896,
+      "maximum_tv_increment_assumption_slack": 0.10982079441532379,
+      "nonconvergent_base_sequence_controls_rejected": 1600,
+      "omitted_cumulative_increment_controls_rejected": 1600,
+      "pass": true,
+      "scope": "Finite policies with equal initial policies, a convergent non-parametric sequence, and the source's cumulative TV-increment assumption.  The two-delta conclusion is valid but not sharp for a binary success event under standard total variation.",
+      "theorem_bound_failures": 0,
+      "verdict": "verified_for_the_stated_conditional_cumulative_tv_scope"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "paper": "z9Bo4eXSpW",
+  "source_pinned": true,
+  "live_contract_pinned": true,
+  "live_claim_count": 3,
+  "claim_1_weighted_contrastive_loss": true,
+  "claim_2_closed_form_policy": true,
+  "claim_3_success_amplification": true,
+  "supplemental_theorem_5_parametric_bound": true,
+  "decisive_claims": 3,
+  "earned_points": 6,
+  "all_claims_complete": true,
+  "tests_passed": true,
+  "publication_gate_passed": true,
+  "scope": "Population, no-clipping, exact policy optimization. Claim 3 verifies amplification/fixed points for interior reference support, while retaining zero-support and global-convergence counter-controls."
+}

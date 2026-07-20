@@ -1,0 +1,9 @@
+{
+  "openreview_id": "z9Bo4eXSpW",
+  "arxiv_id": "2503.06639v4",
+  "arxiv_source_sha256": "6d2325bc504b43c41b3ab27fe9515554beb8ed598eb5848185b42cf10ad0f94a",
+  "primary_pdf_sha256": "d830077320a3bdf53532b90f2dceeaf0f2c17912250cd2d00ea8aeb2adc6a0c6",
+  "primary_tex_sha256": "3f30a19ebd3e169cec4f127abbfdfcc3e0d5cfab11f1730bc0fd07cd4a3d23c9",
+  "official_code": null,
+  "implementation_scope": "independent finite-probability and optimization audit"
+}
