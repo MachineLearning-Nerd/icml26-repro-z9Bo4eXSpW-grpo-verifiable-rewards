@@ -2,7 +2,7 @@
   "gate": "FULL_GATE_READY",
   "queue_marker": "FULL_GATE_READY: z9Bo4eXSpW",
   "paper": "z9Bo4eXSpW",
-  "evidence_bundle_sha256": "50659cc87ebf87838496bab90e3ac9785e287a08871a5c6c72a7eb23f24a4329",
+  "evidence_bundle_sha256": "924fc5e1dc2ab9426bdec13f62559529972460ad08399c04346b31f6c76dd99e",
   "claim_verification_sha256": "a43323d5ae6c12b862e8afc04041f7a871e3925fcc5e3292b3504663d5f83c6f",
   "claims_complete": true,
   "earned_points": 6,

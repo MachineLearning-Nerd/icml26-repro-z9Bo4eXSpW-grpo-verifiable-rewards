@@ -14,6 +14,7 @@
     "repro-grpo-verifiable-rewards": null
   },
   "local_artifacts": [
-    "repro-grpo-verifiable-rewards/repro-bundle:v0"
+    "repro-grpo-verifiable-rewards/repro-bundle:v0",
+    "repro-grpo-verifiable-rewards/repro-bundle:v1"
   ]
 }

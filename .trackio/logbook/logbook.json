@@ -10,7 +10,7 @@
     "icml2026-repro",
     "paper-z9Bo4eXSpW"
   ],
-  "updated_at": "2026-07-20T10:00:23+00:00",
+  "updated_at": "2026-07-20T10:02:16+00:00",
   "root": {
     "slug": "index",
     "title": "Repro - GRPO Verifiable Rewards",
@@ -60,6 +60,6 @@
       }
     ]
   },
-  "agent_view_tokens": 1592,
-  "revision": "1784541623940286295"
+  "agent_view_tokens": 1720,
+  "revision": "1784541736274708721"
 }
